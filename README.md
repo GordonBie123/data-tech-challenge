@@ -17,7 +17,7 @@ This project analyzes historical flight data from Australian airports (1985-1989
 - Discovered clear seasonal patterns and growth trends
 
 ### 2. Model Selection
-We chose time series models over machine learning because:
+I chose time series models over machine learning because:
 - Passenger traffic is temporally dependent (next month depends on previous months)
 - Strong seasonal patterns exist (holiday peaks, summer increases)
 - Historical trends matter for forecasting
@@ -29,7 +29,7 @@ We chose time series models over machine learning because:
 ### 3. Model Evaluation
 - Used 6-month holdout test set for validation
 - Selected best model based on Mean Absolute Error (MAE)
-- Achieved ~4.5% error rate on major routes
+- Achieved ~4.5% error rate on major routes, routes with less traffic and data have greater error rate
 
 ### 4. Predictions
 - Generated 12-month forecasts for passenger traffic
@@ -65,3 +65,4 @@ We chose time series models over machine learning because:
 
 ## Cleaned Data
 https://docs.google.com/spreadsheets/d/1_YqAoDysbQGPME3kYHcxe9MHI4kszHl3gpFby-Vrt7g/edit?usp=sharing
+
